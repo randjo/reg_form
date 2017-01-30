@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.hide {
+	display: none;
+}
+
+form {
+	display: block;
+	margin: 30px auto;
+	width: 800px;
+}
+
+#step4 {
+	margin: 20px auto;
+	width: 800px;
+}
+
+.row {
+	margin: 20px 0;
+}
+
+.row input{
+	font-style: normal;
+	color: black;
+	margin: 0px 10px;
+	width: 150px;
+}
+
+.row label:first-child {
+	display: block;
+	float: left;
+	width: 150px;
+}
+
+.row button, .row input[type="submit"] {
+	float: right;
+}
+
+p {
+	margin: 15px;
+	width: 60%;
+}
+
+.error{
+	color:red;
+	margin: 0 10px;
+	font-style: italic;
+}
